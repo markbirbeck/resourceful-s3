@@ -1,0 +1,36 @@
+{
+  "name": "resourceful-s3",
+  "version": "0.0.0",
+  "description": "An S3 backend for the Flatiron Resourceful framework.",
+  "keywords": [
+    "flatiron",
+    "model",
+    "resourceful",
+    "s3"
+  ],
+  "homepage": "http://github.com/markbirbeck/resourceful-s3/",
+  "bugs": "http://github.com/markbirbeck/resourceful-s3/issues",
+  "license": "Apache-2.0",
+  "main": "./lib/resourceful-s3",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/markbirbeck/resourceful-s3.git"
+  },
+  "readmeFilename": "README.md",
+  "scripts": {
+    "test": "NODE_ENV=test mocha"
+  },
+  "dependencies": {
+    "resourceful-base-engine": "0.4.0",
+    "lodash": "2.4.1",
+    "knox": "0.9.1"
+  },
+  "devDependencies": {
+    "broadway": "0.3.6",
+    "config": "1.9.0",
+    "mocha": "2.0.1",
+    "resourceful": "markbirbeck/resourceful",
+    "should": "4.4.1",
+    "js-yaml": "3.2.3"
+  }
+}
