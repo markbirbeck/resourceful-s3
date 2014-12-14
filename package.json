@@ -1,6 +1,6 @@
 {
   "name": "resourceful-s3",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "An S3 backend for the Flatiron Resourceful framework.",
   "keywords": [
     "flatiron",
